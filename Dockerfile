@@ -9,4 +9,6 @@ ENV PATH="/cncjs/bin:${PATH}"
 ENV NODE_ENV="development"
 
 EXPOSE 8000
+ENTRYPOINT []
+
 CMD ["cncjs", "--controller", "Grbl", "-v", "-c", "/config/cncrc.json"]
