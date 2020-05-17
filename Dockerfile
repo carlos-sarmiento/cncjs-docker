@@ -14,4 +14,4 @@ WORKDIR /cncjs/bin
 
 ENTRYPOINT []
 
-CMD ["cncjs", "--controller", "Grbl", "-v", "-c", "/config/cncrc.json"]
+CMD ["cncjs", "--controller", "Grbl", "-v", "-c", "/config/cncrc.json", "-w", "/watch"]
